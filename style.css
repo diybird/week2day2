@@ -57,10 +57,14 @@ th,td{
 caption{
     text-transform: uppercase;
     font-weight: bolder;
+    font-size: large;
     height:40px;
     padding-top:15px;
     color: #753a30;
-
+background-color: bisque;
+}
+th{
+    background-color: beige;
 }
 label{
     display:block;
