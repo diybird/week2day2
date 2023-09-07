@@ -34,9 +34,33 @@ li a:active{
 nav{
     background-color: rgb(rgb(255, 204, 0), rgb(64, 205, 64), rgb(43, 111, 228));
 }
+main{
+    margin:50px;
+}
 main h1 {
     color: rgb(129,141,179);
     font-family: Arial, Helvetica, sans-serif;
+    
+}
+table{
+    margin-top:35px;
+}
+table,caption,th,td{
+    border: 1px solid black;
+}
+th,td{
+    width: 150px;
+    height: 35px;
+    text-align:center;
+
+}
+caption{
+    text-transform: uppercase;
+    font-weight: bolder;
+    height:40px;
+    padding-top:15px;
+    color: #753a30;
+
 }
 footer{
     height: 40px;
