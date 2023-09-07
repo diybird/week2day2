@@ -1,0 +1,48 @@
+header{
+    background:url(images/hanged.png)0 -200px no-repeat;/*places image as background*/
+    height: 400px;/*sets the header height*/
+    /*background-position 0 -200px */
+    /*background-repeat; no-repeat*/
+    padding-top: 100px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+li{
+list-style-type: none;
+display: inline;
+padding: 0 20px;
+
+}
+li a{
+text-decoration: none; /*remove underline*/
+
+}
+li a:link {
+    color: black; /*before click*/
+}
+li a:visited{
+    color: #818db3; /* after click*/
+}
+li a:hover{
+    color: #333;/*mouse over*/
+}
+li a:active{
+    color: orange;
+}
+nav{
+    background-color: rgb(rgb(255, 204, 0), rgb(64, 205, 64), rgb(43, 111, 228));
+}
+main h1 {
+    color: rgb(129,141,179);
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    height: 40px;
+    background-color: aqua;
+    text-align: center;
+    padding-top: 20px;
+    color: aquamarine;
+
+}
